@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "rm(list = ls())\n\ndata(sleep,package = \"VIM\")\n\n#список строк, в которых нет пропусков\nsleep[complete.cases(sleep),]\n#список строк, в которых хотя бы одно пропущенное значение\nsleep[!complete.cases(sleep),]\n\nlibrary(mice)\n\n#матрица пропусков\n#первый столбец ко-во таких случаев, последний ко-во пропусков в случае\n#нижняя строка - это ко-во пропусков у каждого свойства\nmd.pattern(sleep)\n\n#график пропусков\nlibrary(VIM)\nmatrixplot(sleep)\n\n#проверим коеффициент кореляции у между пропусками\nx<-as.data.frame(abs(is.na(sleep)))\ny<-x[,which(colSums(x)>0)]\nprint(cor(y),4) #Как??? plot(y)\n\n#???\ncor(sleep,y,use = \"pairwise.complete.obs\")\n\n\n#Процедура Гиббcа\nimp <- mice(sleep,seed = 1234)\nhead(complete(imp))\nhead(sleep)\n",
+    "created" : 1480276341075.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1308531",
+    "id" : "9548F5C9",
+    "lastKnownWriteTime" : 1480347282,
+    "last_content_update" : 1480347282461,
+    "path" : "D:/Аналитика/R Studio/Data mining/Filling of the missing data.R",
+    "project_path" : "Filling of the missing data.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

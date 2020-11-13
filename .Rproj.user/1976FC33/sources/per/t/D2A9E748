@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526104519994.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "0|11|23|15|\n26|23|34|10|\n35|23|48|1|\n49|30|69|1|\n70|18|75|1|\n76|25|134|1|\n135|38|156|0|\n157|31|183|2|\n184|22|189|1|\n190|25|206|1|\n207|10|216|0|\n217|17|294|0|\n295|30|302|0|\n304|18|311|0|\n312|17|357|0|\n358|17|381|0|\n382|16|413|0|\n414|18|475|0|\n476|16|506|0|\n507|16|525|0|\n545|20|550|0|\n551|44|621|84|\n622|39|699|0|\n700|17|712|0|\n713|14|718|0|\n719|15|722|26|\n723|43|761|0|\n",
+    "hash" : "2164764603",
+    "id" : "D2A9E748",
+    "lastKnownWriteTime" : 1529170982,
+    "last_content_update" : 1529316106142,
+    "path" : "~/Documents/R/Data mining/WORK.R",
+    "project_path" : "WORK.R",
+    "properties" : {
+        "cursorPosition" : "540,0",
+        "scrollLine" : "157"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

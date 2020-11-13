@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1528625932242.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1617785431",
+    "id" : "6C5EC667",
+    "lastKnownWriteTime" : 1528647769,
+    "last_content_update" : 1528647769583,
+    "path" : "~/Documents/R/Data mining/Mysort_var.R",
+    "project_path" : "Mysort_var.R",
+    "properties" : {
+        "cursorPosition" : "27,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
